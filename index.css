@@ -1,0 +1,29 @@
+body {
+    background-color: #282828;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.control {
+    width: 100%;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.centered {
+    display: block;
+    margin-top: auto;
+}
+
+button {
+    margin-left: 100px;
+}
