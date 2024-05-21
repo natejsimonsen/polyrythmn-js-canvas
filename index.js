@@ -12,8 +12,8 @@ const drawingSurface = canvas.getContext("2d");
 let afreq = null;
 
 const resize = () => {
-    canvas.width = window.innerWidth * 0.95;
-    canvas.height = window.innerHeight * 0.5;
+    canvas.width = window.innerWidth * 0.75;
+    canvas.height = window.innerHeight * 0.65;
 };
 
 window.addEventListener("resize", resize);
